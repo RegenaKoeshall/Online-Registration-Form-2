@@ -1,0 +1,184 @@
+/**************Main Styles***************/
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+ font-family: 'Merriweather', serif;
+  display: block;
+ 
+ 
+  
+  
+ 
+}
+h1 {
+  height:100px;
+  background: black;
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 30px;
+}
+h2 {
+  text-align: center;
+ 
+}
+p {
+  text-align: center;
+  padding: 5%;
+  margin-bottom: 30px;
+   border-bottom: 3px solid black;
+}
+
+legend {
+  font-size: 1.25em;
+  font-weight: bolder;
+
+}
+ 
+fieldset {
+    border: 0;
+    
+  } 
+.second {
+line-height: 1.75em;
+}
+  
+
+label,
+input {
+  display: block;
+  padding-bottom: 5px;
+ 
+  
+ 
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  background: #e8eeef;
+  width: 100%;
+  color: black;
+  margin-bottom: 20px;
+  padding: 10px;
+  outline: 0;
+  margin-top: 5px;
+}
+#zip {
+  display: inline-block;
+  width: 30%;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  color: #e8eeef;
+  float: left;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+#topics {
+ margin-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom:30px;
+}
+.other {
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+button {
+  width: 100%;
+  text-align: center;
+  background-color: teal;
+  color: white;
+  padding: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom:100px;
+}
+
+
+/**************:Focus Styles***************/
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 0;
+  outline: 2px solid blue;
+  border-radius: 5px;
+}
+::-webkit-input-placeholder {
+  font-style: italic;
+  text-align: right;
+  padding-right: 3px;
+ 
+}
+
+
+
+/**************Media Querie Styles***************/
+
+@media(min-width: 768px) {
+
+
+h1 {
+  width: 100%;
+}
+
+.wrap {
+  width: 70%;
+  margin: 0 auto;
+}
+
+label[for="name"],
+label[for="mail"],
+label[for="phone"],
+label[for="address"],
+label[for="city"],
+label[for="state"],
+label[for="zip"] {
+  float: left;
+  width: 25%;;
+  display: block;
+  
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  float: left;
+  width: 70%;
+  display: block;
+}
+#zip {
+  float:left;
+  width: 30%;
+  margin-right: 40%;
+}
+
+
+#state {
+  float:left;
+  width: 70%;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
